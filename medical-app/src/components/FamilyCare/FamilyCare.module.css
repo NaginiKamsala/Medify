@@ -1,0 +1,49 @@
+.FamilySection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.caring {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--color-white);
+  box-shadow: 0px 15px 45px -5px #00000012;
+  border: none;
+  border-radius: 8px;
+  gap: 1em;
+
+  height: 19em;
+  width: 15em;
+}
+.cardImage {
+  height: 6.25em;
+  width: 6.25em;
+  object-fit: cover;
+  overflow: hidden;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  margin: 1em 0px;
+  font-size: 1.07em;
+  font-weight: 500;
+  line-height: 2.5em;
+  color: #77829d;
+  font-family: "Inter";
+}

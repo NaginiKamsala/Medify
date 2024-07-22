@@ -1,0 +1,30 @@
+:root {
+  --color-blue-primary: #2aa7ff;
+  --color-blue-secondary: #2aa8ff;
+  --color-blue-dark1: #102851;
+  --color-blue-dark2: #1b3c74;
+  --color-white: #ffffff;
+
+  --background-linear-grad: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+
+  --swiper-theme-color: #2aa7ff !important;
+}
+
+body {
+  background-color: var(--color-white);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Poppins", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
