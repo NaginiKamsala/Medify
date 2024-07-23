@@ -7,6 +7,7 @@ import MedicalSpecialists from "../../components/MedicalSpecilists/MedicalSpecia
 import DoctorInteraction from "../../components/DoctorInteraction/DoctorInteraction";
 import BlogandNews from "../../components/BlogandNews/BlogandNews";
 import FamilyCare from "../../components/FamilyCare/FamilyCare";
+import FAQS from "../../components/FAQS/FAQs";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <DoctorInteraction />
       <BlogandNews />
       <FamilyCare />
+      <FAQS />
     </div>
   );
 };

@@ -1,0 +1,131 @@
+.mainsection {
+  display: flex;
+  flex-direction: column;
+
+  padding: 30px 7vw;
+  box-sizing: border-box;
+
+  align-items: center;
+  justify-content: start;
+
+  background-color: var(--color-white);
+  flex-wrap: wrap;
+
+  font-size: 16px;
+}
+.headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 3em 0px 0px;
+}
+.doctorpatientimage {
+  width: 45%;
+  font-size: 16px;
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+
+.image {
+  height: 30em;
+  width: 31em;
+  object-fit: cover;
+  overflow: hidden;
+  box-shadow: 0px 15px 55px -10px #00000017;
+  border-radius: 8px;
+  border: 10px solid #ffffff;
+  box-sizing: border-box;
+}
+.HeartIcon {
+  height: 5em;
+  width: 5em;
+  background-color: var(--color-white);
+  box-shadow: 0px 15px 25px 0px #0000000f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  right: -2.4em;
+  top: 33%;
+}
+
+.SmileIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-white);
+  box-shadow: 0px 15px 35px -5px #00000012;
+  border-radius: 8px;
+  gap: 1em;
+  width: 12em;
+  padding: 1em;
+
+  position: absolute;
+  left: 15%;
+  bottom: 20%;
+}
+.SmileIcon svg {
+  height: 2.75em;
+  width: 2.75em;
+}
+
+.SmileIcon h3 {
+  margin: 0px;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.375em;
+  color: var(--color-blue-dark2);
+}
+
+.SmileIcon p {
+  margin: 0px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #77829d;
+}
+
+.question_section {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.question {
+  font-size: 1.125em;
+  font-weight: 600;
+  line-height: 1.875em;
+  color: var(--color-blue-dark2);
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1em;
+  min-height: 4.375em;
+}
+
+.question p {
+  margin: 0px;
+}
+
+.question_svg {
+  height: 1.25em;
+  width: 1.25em;
+  padding-top: 0.3em;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  cursor: pointer;
+}
