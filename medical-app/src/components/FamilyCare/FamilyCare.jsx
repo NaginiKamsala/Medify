@@ -1,5 +1,9 @@
 import styles from "./FamilyCare.module.css";
 import DrugStore from "../../assets/Drugstore (1).png";
+import happy_icon from "../../assets/happy_icon.png";
+import hospital_icon from "../../assets/hospital_icon.png";
+import doctor_icon from "../../assets/doctor_icon.png";
+import lab_icon from "../../assets/lab_icon.png";
 
 const CategoryCard = ({ Icon, title, count, color }) => {
   return (
@@ -8,8 +12,8 @@ const CategoryCard = ({ Icon, title, count, color }) => {
         <img src={Icon} alt={title} />
       </div>
 
-      <h4>{count}</h4>
-      <h6>{title}</h6>
+      <h1>{count}</h1>
+      <h4>{title}</h4>
     </div>
   );
 };
@@ -30,30 +34,32 @@ const FamilyCare = () => {
       <div className={styles.cards}>
         <div>
           <CategoryCard
-            Icon={DrugStore}
+            Icon={happy_icon}
             count="5000+"
-            title="Laboratories"
+            title="Happy patients"
             color="#EBF7FF"
           />
           <CategoryCard
-            Icon={DrugStore}
-            count="5000+"
-            title="Laboratories"
+            Icon={hospital_icon}
+            count="200+"
+            title="Hospitals"
             color="#FFF2F0"
           />
         </div>
-        <CategoryCard
-          Icon={DrugStore}
-          count="5000+"
-          title="Laboratories"
-          color="#FFF7E6"
-        />
-        <CategoryCard
-          Icon={DrugStore}
-          count="5000+"
-          title="Laboratories"
-          color="#EBFAF1"
-        />
+        <div>
+          <CategoryCard
+            Icon={lab_icon}
+            count="1000+"
+            title="Laboratories"
+            color="#FFF7E6"
+          />
+          <CategoryCard
+            Icon={doctor_icon}
+            count="700+"
+            title="Expert Doctors"
+            color="#EBFAF1"
+          />
+        </div>
       </div>
     </div>
   );
