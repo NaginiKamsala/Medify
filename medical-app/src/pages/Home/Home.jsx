@@ -8,6 +8,7 @@ import DoctorInteraction from "../../components/DoctorInteraction/DoctorInteract
 import BlogandNews from "../../components/BlogandNews/BlogandNews";
 import FamilyCare from "../../components/FamilyCare/FamilyCare";
 import FAQS from "../../components/FAQS/FAQs";
+import MedifyApp from "../../components/MedifyApp/MedifyApp";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <BlogandNews />
       <FamilyCare />
       <FAQS />
+      <MedifyApp />
     </div>
   );
 };
