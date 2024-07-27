@@ -1,11 +1,21 @@
 import styles from "./Navbar.module.css";
 import logo from "../../assets/logo.png";
+import { useLocation, useNavigate } from "react-router";
 import { Button } from "@mui/material";
 
 const Navbar = () => {
   const NavButton = ({ content }) => {
     return <button className={styles.btn}>{content}</button>;
   };
+
+  const location = useLocation();
+  const navigate = useNavigate();
+  const path = location.pathname;
+
+  function handleMyBookingClick() {
+    navigate("/bookings");
+  }
+
   return (
     <div>
       <div className={styles.mainheading}>
@@ -31,6 +41,7 @@ const Navbar = () => {
               background: "var(--color-blue-secondary)",
               textTransform: "none",
             }}
+            onClick={handleMyBookingClick}
           >
             My Bookings
           </Button>

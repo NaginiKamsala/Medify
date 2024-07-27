@@ -49,13 +49,6 @@
   /* height: 28.125em; */
 }
 
-.mobile_above {
-  height: 420px;
-  /* height: 26.25em; */
-  position: absolute;
-  top: 15%;
-  right: 33%;
-}
 .arrow {
   position: absolute;
   left: 4%;

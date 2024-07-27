@@ -9,8 +9,34 @@
   box-shadow: 6px 6px 35px 0px #1028511c;
 }
 
+.search_section_bookings {
+  width: 50vw;
+  /* height: 400px; */
+  box-sizing: border-box;
+  margin: 0px 7vw;
+  padding: 50px 0px;
+  background-color: var(--color-white);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 6px 6px 35px 0px #1028511c;
+  right: 0%;
+}
+.search_section_postion_other_pages {
+  padding: 20px 0px;
+  position: relative;
+  top: 23%;
+  z-index: 1;
+}
+
+.searchbars_button_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 30px;
+}
+
 .search_section_postion_home {
-  position: absolute;
+  position: relative;
   top: 68%;
   z-index: 1;
 }
@@ -28,7 +54,7 @@
   display: flex;
   align-items: center;
   justify-content: start;
-  /* border: 1px solid black; */
+
   border: 2px solid #f0f0f0;
   border-radius: 8px;
   background-color: #fafbfe;
