@@ -50,3 +50,7 @@
   background: var(--background-linear-grad);
   box-sizing: border-box;
 }
+.navbar_div_result_page {
+  background: none;
+  background-color: var(--color-white);
+}

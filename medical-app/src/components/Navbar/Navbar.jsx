@@ -23,11 +23,20 @@ const Navbar = () => {
         will always be our priority, so we follow the best practices for
         cleanliness.
       </div>
-      <div className={styles.nav}>
-        <div className={styles.logo}>
-          <img src={logo} alt="medify logo" />
-          <span>Medify</span>
-        </div>
+      <div
+        className={`${styles.nav} ${
+          path === "/" ? "" : styles.navbar_div_result_page
+        }`}
+      >
+        <button
+          onClick={() => navigate("/")}
+          style={{ border: "none", cursor: "pointer" }}
+        >
+          <div className={styles.logo}>
+            <img src={logo} alt="medify logo" />
+            <span>Medify</span>
+          </div>
+        </button>
         <div className={styles.navlinks}>
           <NavButton content="Find Doctors"></NavButton>
           <NavButton content="Hospitals"></NavButton>

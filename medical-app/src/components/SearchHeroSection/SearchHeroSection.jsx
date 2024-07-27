@@ -224,6 +224,7 @@ const SearchHeroSection = ({ setResultsList, setCityName, resultsList }) => {
             background: "var(--color-blue-secondary)",
             textTransform: "none",
           }}
+          onClick={handleSearchSubmit}
         >
           Search
         </Button>

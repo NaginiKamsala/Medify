@@ -7,7 +7,7 @@ import { ReactComponent as PlusIcon } from "../../assets/FAQ_plus_icon.svg";
 
 const FAQS = () => {
   return (
-    <div classname={styles.mainsection}>
+    <div className={styles.mainsection}>
       <h4>Get your answers</h4>
       <h1>Frequently Asked Questions</h1>
       <div className={styles.content}>
